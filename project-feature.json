@@ -1,0 +1,21 @@
+[{
+    "id":1,
+    "description":"BASIC",
+    "link":false,
+    "premium":false,
+    "basic":true
+    },
+{
+    "id":2,
+    "description":"PREMIUM",
+    "link":false,
+    "premium":true,
+    "basic":false
+    },
+{
+    "id":3,
+    "description":"LINKS",
+    "link":true,
+    "premium":false,
+    "basic":false
+}]

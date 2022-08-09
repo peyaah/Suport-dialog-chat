@@ -1,0 +1,16 @@
+
+[{
+    "id":1,
+    "description":"Project Based",
+    "detail":"Your Project-Based plan means you can upload audio and video necessary your project. Extra minutes will incur additional costs.",
+    "annualSubscription":false,
+    "projectBase":true
+    
+},
+{
+    "id":2,
+    "description":"Annual Subscription",
+    "detail":"Your Annual Subscription plan means you can upload audio and video files up to the requested minutes allowed in your account within a month. Minute usage resets every 30 days.",
+    "annualSubscription":true,
+    "projectBase":false
+}]

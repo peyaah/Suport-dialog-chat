@@ -1,0 +1,223 @@
+.acknowledgement-message-div{
+    background-color: white;
+    position: absolute;
+    height: 308px;
+    width: 288px;
+    z-index: 10;
+    animation: myAnim 1s ease-in-out 4s 1 normal none;
+    
+}
+.acknowledgement-label-1{
+    margin-top: 92px;
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif !important;
+    color: #757575;
+}
+.acknowledgement-label-2{
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif !important;
+    color: #757575;
+}
+
+/* TOGGLE BUTTON CHAT DIALOG */
+#chat-btn:hover, #x-btn:hover{
+    transform:scale(1.2,1.2);
+}
+
+
+.support-toggle-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* CARD AND CARD TEXT LABELS */
+
+.card-title-bar-div{
+    background-color: #F16026;
+    width: 100%;
+    height: 100px; 
+}
+
+.first-text-div{
+    display: flex;
+    padding: 7px;
+    padding-bottom: 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+
+.first-text-label{
+    color: white;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px; 
+}
+
+.second-text-div{
+    display: flex;
+    padding: 9px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+
+.second-text-label{
+    color: white;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    
+}
+
+.div-card{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+.div-tabs-holder{
+    padding: 6.5px;
+    position: relative;
+    
+}
+
+.newProj-div-box{
+    border:  1px;
+    border-color: #A9A9A9;
+    border-style: solid;
+    padding: 6px;
+    
+}
+
+.div-selector{
+    padding-bottom: 6.2px;
+    padding-top: 6.2px;
+}
+
+.div.tab{
+    position: absolute;
+}
+
+.div-tab .v-card__text{
+    padding: 0;
+}
+
+/* DROP DOWN SELECTION-TAB */
+
+.selection-drop-down .v-input__append-inner{
+    padding: 0 !important;
+}
+
+.selection-tab.v-tab{
+    font-size: 12px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: none !important;
+}
+
+/*DROP DOWN FEATURE AND PLAN*/
+
+
+
+/*.selection-drop-down .v-input__control .v-input__slot .v-select__selections{
+    height: 24px !important;
+    border-right: 1px solid #A9A9A9;
+}*/
+
+.selection-drop-down .v-input__control .v-input__slot .v-label{
+    font-size: 12px;
+    
+}
+
+.selection-drop-down .mdi-menu-down::before {
+    color: black !important;
+}
+
+.selection-drop-down .v-select__selections .v-select__selection{
+    font-size: 12px !important;
+    line-height: auto;
+    margin: 0%;
+}
+
+.selection-drop-down .v-input__slot{
+    min-height: 30px !important;
+}
+
+.selection-drop-down .v-input__control .v-input__slot .v-select__slot>label{
+    top: 5px !important;
+}
+
+.selection-drop-down .v-input__control .v-input__slot .v-select__slot .v-input__append-inner{
+    margin-top: 3px !important;
+}
+
+/* OTHER NOTES AND SUPPORT TEXT AREA */
+
+
+/* Text area border */
+
+.text-area-inputs .v-input__control .v-input__slot{
+/* New Project Tab, Support Tab text area paddings*/
+    padding-right: 0 !important;
+    padding-left: 5px !important;
+}
+
+/* Text area styles within borders */
+.text-area-inputs textarea{
+    font-size: 12px ;
+    line-height: 1.3;
+    text-align: justify;
+    max-width: 272px;
+    padding: 5px !important;
+    margin: 0px !important; 
+}
+
+.text-area-inputs .v-input__control .v-input__slot{
+    padding: 0% !important;
+}
+
+.text-area-inputs .v-input__control .v-input__slot .v-text-field__slot{
+    margin-right: 3px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+
+.send-btn-div{
+    
+    margin-top: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+
+.label-notes-support{
+    color: black;
+    font-size: 11px;
+}
+
+
+.label-bar-div{
+    float: left;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+
+/* CSS tab highlights black when clicked active */
+.tab-selection{
+    padding: 0%;
+    
+}
+.tab-selection .active{
+    background-color: #333!important;
+    border-color: #333 !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
